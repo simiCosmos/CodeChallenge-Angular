@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Core\\CodingChallenge.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Core\\CodingChallenge.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Core\\CodingChallenge.Core.csproj",
+        "projectName": "CodingChallenge.Core",
+        "projectPath": "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Core\\CodingChallenge.Core.csproj",
+        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
+                "projectPath": "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj",
+        "projectName": "CodingChallenge.Utilities",
+        "projectPath": "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
+      },
+      "frameworks": {
+        "net45": {}
+      }
+    }
+  }
+}

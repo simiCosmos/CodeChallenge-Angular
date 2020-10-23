@@ -1,0 +1,51 @@
+<h1 id="tableLabel">Movies</h1>
+
+<p *ngIf="isLoding"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="!isLoding" sortable-table (sorted)="onSorted($event)">
+  <thead>
+    <tr>
+      <th sortable-column="id" sort-direction="asc">Id
+        <i class="fa fa-chevron-up" *ngIf="sortDirection === 'asc'"></i>
+        <i class="fa fa-chevron-down" *ngIf="sortDirection === 'desc'"></i>
+        <ng-content></ng-content>
+      </th>
+      <th sortable-column="title">Title
+        <i class="fa fa-chevron-up" *ngIf="sortDirection === 'asc' "></i>
+        <i class="fa fa-chevron-down" *ngIf="sortDirection === 'desc'"></i>
+        <ng-content></ng-content>
+      </th>
+      <th sortable-column="year">Year
+        <i class="fa fa-chevron-up" *ngIf="sortDirection === 'asc'"></i>
+        <i class="fa fa-chevron-down" *ngIf="sortDirection === 'desc'"></i>
+        <ng-content></ng-content>
+      </th>
+      <th sortable-column="rating">Rating
+        <i class="fa fa-chevron-up" *ngIf="sortDirection === 'asc'"></i>
+        <i class="fa fa-chevron-down" *ngIf="sortDirection === 'desc'"></i>
+        <ng-content></ng-content>
+      </th>
+      <th sortable-column="franchise">Franchise
+        <i class="fa fa-chevron-up" *ngIf="sortDirection === 'asc'"></i>
+        <i class="fa fa-chevron-down" *ngIf="sortDirection === 'desc'"></i>
+        <ng-content></ng-content>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let movie of pageOfItems ">
+      <td>{{ movie.id }}</td>
+      <td>{{ movie.title }}</td>
+      <td>{{ movie.year }}</td>
+      <td>{{ movie.rating }}</td>
+      <td>{{ movie.franchise }}</td>
+    </tr>
+  </tbody>
+  <div class="pagination row">
+    <app-pagination [pageSize]="6"
+  [items]="movies"
+  (changePage)="onChangePage($event)"
+  (searchResult)="onFilterChange($event)"
+  ></app-pagination>
+  </div>
+</table>
