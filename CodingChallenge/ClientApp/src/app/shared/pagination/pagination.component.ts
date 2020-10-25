@@ -34,7 +34,7 @@ import {
   
     ngOnChanges(changes: SimpleChanges) {
       // reset page if items array has changed
-      if (changes.items.currentValue !== changes.items.previousValue) {
+      if (changes.items && changes.items.currentValue !== changes.items.previousValue) {
         this.setPage(this.initialPage);
       }
       this.filterBySerachText();
@@ -47,7 +47,7 @@ import {
       } else {
         this.searchResult.emit(
           this.items.filter((e) =>
-            e.name.toLowerCase().includes(this.searchString.toLowerCase())
+            e.title.toLowerCase().includes(this.searchString.toLowerCase())
           )
         );
       }

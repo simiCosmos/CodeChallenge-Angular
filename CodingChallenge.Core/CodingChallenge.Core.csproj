@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\repos\aw-coding-challenge-main\CodingChallenge.Utilities\CodingChallenge.Utilities.csproj" />
+    <ProjectReference Include="..\CodingChallenge.Utilities\CodingChallenge.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

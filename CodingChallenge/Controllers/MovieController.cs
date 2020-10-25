@@ -25,5 +25,32 @@ namespace CodingChallenge.Controllers
             return this.movieService.GetMovies();
         }
 
+        [HttpGet("matching-by-title/{searchText}")]
+        public IEnumerable<dynamic> GetMatchingMoviesByTitle(string searchText)
+        {
+            return this.movieService.GetMoviesBySearchText(searchText);
+        }
+
+        [HttpGet("by-rating")]
+        public IEnumerable<dynamic> GetMatchingMoviesByTitle([FromQuery(Name = "ratedAbove")] bool ratedAbove,
+            [FromQuery(Name = "rating")] double rating)
+        {
+            return this.movieService.GetMoviesBySearchText(rating, ratedAbove);
+        }
+
+        [HttpGet("by-year-range")]
+        public IEnumerable<dynamic> GetMatchingMoviesByTitle([FromQuery(Name = "startYear")] int startYear,
+            [FromQuery(Name = "endYear")] int endYear)
+        {
+            return this.movieService.GetMoviesByYearRange(startYear, endYear);
+        }
+
+        [HttpGet("movies-by-franchise/{searchText}")]
+        public IEnumerable<dynamic> GetMatchingMoviesByfranchise(string searchText)
+        {
+            return this.movieService.GetMoviesByFranchise(searchText);
+        }
+
+
     }
 }

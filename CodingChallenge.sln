@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge", "CodingChallenge\CodingChallenge.csproj", "{41192892-4BA4-4DC8-B7B5-B72BF9BBCAE2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9558DB3C-4735-499A-9468-7A7D83FE8E9F} = {9558DB3C-4735-499A-9468-7A7D83FE8E9F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingChallenge.Core", "CodingChallenge.Core\CodingChallenge.Core.csproj", "{A04F4EDA-6DF6-45B7-8D28-DCB8102AA111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge.Utilities", "..\..\..\repos\aw-coding-challenge-main\CodingChallenge.Utilities\CodingChallenge.Utilities.csproj", "{9558DB3C-4735-499A-9468-7A7D83FE8E9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenge.Utilities", "CodingChallenge.Utilities\CodingChallenge.Utilities.csproj", "{9558DB3C-4735-499A-9468-7A7D83FE8E9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

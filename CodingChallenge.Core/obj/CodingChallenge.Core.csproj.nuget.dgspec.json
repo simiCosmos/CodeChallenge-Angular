@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
-                "projectPath": "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
+              "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
+                "projectPath": "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
               }
             }
           }
@@ -74,11 +74,11 @@
         }
       }
     },
-    "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
+    "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj",
         "projectName": "CodingChallenge.Utilities",
-        "projectPath": "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
+        "projectPath": "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
       },
       "frameworks": {
         "net45": {}

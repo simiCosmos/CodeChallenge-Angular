@@ -6,25 +6,18 @@ import { SortService } from '../services/sort.service';
 
 @Component({
   selector: 'app-movies',
-  templateUrl: './movies.component.html'
+  templateUrl: './movies.component.html',
+  styleUrls: ['./movies.component.css'],
 })
 export class MoviesComponent implements OnInit {
 
   movies: Movie[] = [];
   pageOfItems: Movie[];
   isLoding = true;
+  search = '';
 
-  @Input('sortable-column')
-  columnName: string;
-
-  @Input('sort-direction')
-  sortDirection: string = '';
-
-  @HostListener('click')
-  sort() {
-      this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
-      this.sortService.columnSorted({ sortColumn: this.columnName, sortDirection: this.sortDirection });
-  }
+  columnName: string = 'id';
+  sortDirection = 'asc';
 
   constructor(
     private movieService: MoviesService,
@@ -34,12 +27,6 @@ export class MoviesComponent implements OnInit {
   ngOnInit(): void {
     this.getMovies();
 
-    this.sortService.columnSorted$.subscribe(event => {
-      // reset this column's sort direction to hide the sort icons
-      if (this.columnName != event.sortColumn) {
-          this.sortDirection = '';
-      }
-  });
   }
 
   getMovies() {
@@ -70,6 +57,19 @@ export class MoviesComponent implements OnInit {
   onFilterChange(pageOfItems: Array<Movie>): void {
     // update current page of items
     this.pageOfItems = pageOfItems;
+  }
+
+  sortByColumn(columnName) {
+    if(this.columnName == columnName) {
+      this.sortDirection = this.sortDirection === 'asc'? 'desc' : 'asc'
+    } else {
+      this.sortDirection = 'asc';
+      this.columnName = columnName;
+    }
+  }
+
+  showArrow(sortColumn: string, sortDirection: string): boolean {
+    return this.sortDirection === sortDirection && this.columnName === sortColumn;
   }
 }
 

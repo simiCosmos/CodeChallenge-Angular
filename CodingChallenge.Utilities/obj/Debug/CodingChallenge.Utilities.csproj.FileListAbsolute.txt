@@ -1,0 +1,12 @@
+C:\Users\Owner\source\repos\aw-coding-challenge-main\CodingChallenge.Utilities\bin\Debug\CodingChallenge.Utilities.dll
+C:\Users\Owner\source\repos\aw-coding-challenge-main\CodingChallenge.Utilities\bin\Debug\CodingChallenge.Utilities.pdb
+C:\Users\Owner\source\repos\aw-coding-challenge-main\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\repos\aw-coding-challenge-main\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.dll
+C:\Users\Owner\source\repos\aw-coding-challenge-main\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.pdb
+C:\Users\Owner\source\repos\aw-coding-challenge-main\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.csprojAssemblyReference.cache
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\bin\Debug\CodingChallenge.Utilities.dll
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\bin\Debug\CodingChallenge.Utilities.pdb
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.dll
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.pdb
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.csprojAssemblyReference.cache

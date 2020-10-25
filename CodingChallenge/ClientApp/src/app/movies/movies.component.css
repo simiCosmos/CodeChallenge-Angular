@@ -1,0 +1,14 @@
+.pagination{
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+  .txt-search{
+      max-width: 30rem;
+      width: 100%;
+      margin: 0 0 1rem 0;
+  }
+  th{
+      cursor: pointer;
+      user-select: none;
+  }

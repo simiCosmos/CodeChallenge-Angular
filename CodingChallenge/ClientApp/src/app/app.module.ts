@@ -13,6 +13,7 @@ import { MoviesComponent } from './movies/movies.component';
 import { SortableTableDirective } from './core/directives/sortable-table.directive';
 import { PaginationModule } from './shared/pagination/pagination.module';
 import { PaginationComponent } from './shared/pagination/pagination.component';
+import { SortPipe } from './core/pipes/sort.pipe';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PaginationComponent } from './shared/pagination/pagination.component';
     FetchDataComponent,
     MoviesComponent,
     SortableTableDirective,
-    PaginationComponent
+    PaginationComponent,
+    SortPipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

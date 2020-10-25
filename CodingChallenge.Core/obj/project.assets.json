@@ -124,8 +124,8 @@
     },
     "CodingChallenge.Utilities/1.0.0": {
       "type": "project",
-      "path": "../../../../repos/aw-coding-challenge-main/CodingChallenge.Utilities/CodingChallenge.Utilities.csproj",
-      "msbuildProject": "../../../../repos/aw-coding-challenge-main/CodingChallenge.Utilities/CodingChallenge.Utilities.csproj"
+      "path": "../CodingChallenge.Utilities/CodingChallenge.Utilities.csproj",
+      "msbuildProject": "../CodingChallenge.Utilities/CodingChallenge.Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -166,8 +166,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
-              "projectPath": "C:\\Users\\Owner\\source\\repos\\aw-coding-challenge-main\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
+            "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj": {
+              "projectPath": "C:\\Users\\Owner\\source\\GitHub\\AW\\CodingChallenge\\CodingChallenge.Utilities\\CodingChallenge.Utilities.csproj"
             }
           }
         }
