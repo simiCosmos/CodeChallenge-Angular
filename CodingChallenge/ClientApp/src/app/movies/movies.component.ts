@@ -2,7 +2,6 @@ import { Component, HostListener, Inject, Input, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { MoviesService } from '../services/movies.service';
 import { Movie } from '../core/models/movie.model';
-import { SortService } from '../services/sort.service';
 
 @Component({
   selector: 'app-movies',
@@ -16,12 +15,11 @@ export class MoviesComponent implements OnInit {
   isLoding = true;
   search = '';
 
-  columnName: string = 'id';
+  columnName: string = 'title';
   sortDirection = 'asc';
 
   constructor(
-    private movieService: MoviesService,
-    private sortService: SortService
+    private movieService: MoviesService
   ){}
 
   ngOnInit(): void {
@@ -59,6 +57,11 @@ export class MoviesComponent implements OnInit {
     this.pageOfItems = pageOfItems;
   }
 
+  onSortChange(pageOfItems: Array<Movie>): void {
+    // update current page of items
+    this.pageOfItems = pageOfItems;
+  }
+
   sortByColumn(columnName) {
     if(this.columnName == columnName) {
       this.sortDirection = this.sortDirection === 'asc'? 'desc' : 'asc'
@@ -66,10 +69,6 @@ export class MoviesComponent implements OnInit {
       this.sortDirection = 'asc';
       this.columnName = columnName;
     }
-  }
-
-  showArrow(sortColumn: string, sortDirection: string): boolean {
-    return this.sortDirection === sortDirection && this.columnName === sortColumn;
   }
 }
 

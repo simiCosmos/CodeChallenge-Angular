@@ -38,7 +38,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let movie of pageOfItems | sort:columnName:sortDirection"  class="row">
+    <tr *ngFor="let movie of pageOfItems"  class="row">
       <td class="col-1">{{ movie.id }}</td>
       <td class="col-4">{{ movie.title }}</td>
       <td class="col-2">{{ movie.year }}</td>
@@ -49,8 +49,11 @@
   <div class="pagination row">
     <app-pagination [pageSize]="6"
   [items]="movies"
+  [columnName]="columnName"
+  [sortDirection]="sortDirection"
   (changePage)="onChangePage($event)"
   (searchResult)="onFilterChange($event)"
+  (sortResult)="onSortChange($event)"
   [searchString]="search"
   ></app-pagination>
   </div>

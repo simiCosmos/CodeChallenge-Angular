@@ -31,6 +31,12 @@ C:\mrd\CodingChallenge\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp
 C:\mrd\CodingChallenge\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.dll
 C:\mrd\CodingChallenge\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.pdb
 C:\mrd\CodingChallenge\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.genruntimeconfig.cache
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.csprojAssemblyReference.cache
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.AssemblyInfoInputs.cache
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.AssemblyInfo.cs
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.dll
+C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.pdb
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\bin\Debug\netcoreapp3.1\CodingChallenge.Core.exe
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\bin\Debug\netcoreapp3.1\CodingChallenge.Core.deps.json
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\bin\Debug\netcoreapp3.1\CodingChallenge.Core.runtimeconfig.json
@@ -43,11 +49,5 @@ C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\bin\Debug\n
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\bin\Debug\netcoreapp3.1\CodingChallenge.Utilities.dll
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\bin\Debug\netcoreapp3.1\CodingChallenge.Utilities.pdb
-C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.csprojAssemblyReference.cache
-C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.AssemblyInfoInputs.cache
-C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.AssemblyInfo.cs
-C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.csproj.CoreCompileInputs.cache
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.csproj.CopyComplete
-C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.dll
-C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.pdb
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Core\obj\Debug\netcoreapp3.1\CodingChallenge.Core.genruntimeconfig.cache

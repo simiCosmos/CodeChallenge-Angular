@@ -15,7 +15,6 @@ namespace CodingChallenge.Core.Business
         List<Movie> GetMoviesBySearchText(string searchText);
         List<Movie> GetMoviesBySearchText(double rating, bool above);
         List<Movie> GetMoviesByYearRange(int startYear, int endYear);
-        List<Movie> GetMoviesByFranchise(string searchText);
     }
     public class MovieService : IMovieService
     {
@@ -34,8 +33,14 @@ namespace CodingChallenge.Core.Business
         public List<Movie> GetMoviesBySearchText(double rating, bool above)
         {
             var movies = this.movieData.GetMovies();
-
-            return above? movies.Where(m => m.Rating >= rating).ToList(): movies.Where(m => m.Rating < rating).ToList();
+            if (above)
+            {
+                return movies.Where(m => m.Rating >= rating).ToList();
+            }
+            else
+            {
+                return movies.Where(m => m.Rating < rating).ToList();
+            }
         }
 
         public List<Movie> GetMoviesByYearRange(int startYear, int endYear)
@@ -48,13 +53,6 @@ namespace CodingChallenge.Core.Business
         List<Movie> IMovieService.GetMovies()
         {
             return this.movieData.GetMovies();
-        }
-
-        public List<Movie> GetMoviesByFranchise(string searchText)
-        {
-            searchText = searchText.ToLower();
-            var movies = this.movieData.GetMovies();
-            return movies.Where(m => m.Franchise.ToLower()== searchText).ToList();
         }
     }
 

@@ -9,4 +9,3 @@ C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\bin\De
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.csproj.CoreCompileInputs.cache
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.dll
 C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.pdb
-C:\Users\Owner\source\GitHub\AW\CodingChallenge\CodingChallenge.Utilities\obj\Debug\CodingChallenge.Utilities.csprojAssemblyReference.cache
